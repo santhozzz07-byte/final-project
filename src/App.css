@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link {
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+.card {
+  transition: 0.3s;
+  border: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  object-fit: contain;
+  padding: 15px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.btn {
+  border-radius: 6px;
+}
+
+input,
+textarea {
+  margin-top: 10px;
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
